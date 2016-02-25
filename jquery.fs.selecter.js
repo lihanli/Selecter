@@ -12,7 +12,7 @@
 	var guid = 0,
 		userAgent = (window.navigator.userAgent||window.navigator.vendor||window.opera),
 		isFirefox = /Firefox/i.test(userAgent),
-		isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(userAgent),
+		isMobile = false,
 		isFirefoxMobile = (isFirefox && isMobile),
 		$body = null;
 
